@@ -54,12 +54,12 @@ I have Given with current dependencies if shows any error make sure to remove **
 
 #### Create a .env file in the root directory with the following content:
 
->***Make File .env***
+>***MakeFile .env***
 >
 >MONGODB_URI=your_mongodb_connection_string
 >PORT=3000
 >
->***Like This***
+>***LIKE THIS***
 >
 >MONGO_URI=mongodb://localhost:27017/cruddb
 >PORT=3000
@@ -69,6 +69,10 @@ Don't need to worry i've given within the project. If there is changes need to b
 ### Run the application:
 
 >npm start
+>
+>***OR***
+>
+>node app.js
 
 - The app will be accessible at ***[START](http://localhost:3000)***.
 
