@@ -28,25 +28,49 @@ This repository contains a simple CRUD (Create, Read, Update, Delete) applicatio
 
 ### Clone the repository:
 
+>***Command Line***
+>
 >git clone https://github.com/GitFreakDK/CRUD-APP.git
 >
->cd crud-app
+>cd CRUD-APP
 
 ### Install dependencies:
 
+>***Command Line***
+>
+>npm on
+>
 >npm install
+>
+>npm install --save dotenv
+>
+>***OR***
+>
+>npm install --save dotenv-extended
+
+I have Given with current dependencies if shows any error make sure to remove ***node_modules*** this file and reinstall by dependency commands.
 
 ### Set up environment variables:
 
 #### Create a .env file in the root directory with the following content:
 
+>***Make File .env***
+>
 >MONGODB_URI=your_mongodb_connection_string
+>PORT=3000
+>
+>***Like This***
+>
+>MONGO_URI=mongodb://localhost:27017/cruddb
+>PORT=3000
+
+Don't need to worry i've given within the project. If there is changes need to be changed.
 
 ### Run the application:
 
 >npm start
 
-- The app will be accessible at **http://localhost:3000.**
+- The app will be accessible at ***[START](http://localhost:3000)***.
 
 ### Usage
 
