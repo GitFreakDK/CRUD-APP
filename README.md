@@ -28,7 +28,7 @@ This repository contains a simple CRUD (Create, Read, Update, Delete) applicatio
 
 ### Clone the repository:
 
->git clone https://github.com/GitFreakDK/crud-app.git
+>git clone https://github.com/GitFreakDK/CRUD-APP.git
 >
 >cd crud-app
 
@@ -65,9 +65,9 @@ Each item in the list displays.*
 
 # Acknowledgments
 
-[Express.js](https://expressjs.com/)
-[Mongoose](https://mongoosejs.com/)
-[MongoDB](https://www.mongodb.com/)
+- [Express.js](https://expressjs.com/)<br>
+- [Mongoose](https://mongoosejs.com/)<br>
+- [MongoDB](https://www.mongodb.com/)<br>
 
 Feel free to contribute or provide feedback!
 
