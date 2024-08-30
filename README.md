@@ -48,23 +48,19 @@ This repository contains a simple CRUD (Create, Read, Update, Delete) applicatio
 >
 >npm install --save dotenv-extended
 
-I have Given with current dependencies if shows any error make sure to remove ***node_modules*** this file and reinstall by dependency commands.
-
 ### Set up environment variables:
 
 #### Create a .env file in the root directory with the following content:
 
 >***MakeFile .env***
 >
->MONGODB_URI=your_mongodb_connection_string
+>MONGODB_URI=your_mongodb_connection_string<br>
 >PORT=3000
 >
 >***LIKE THIS***
 >
->MONGO_URI=mongodb://localhost:27017/cruddb
+>MONGO_URI=mongodb://localhost:27017/cruddb<br>
 >PORT=3000
-
-Don't need to worry i've given within the project. If there is changes need to be changed.
 
 ### Run the application:
 
