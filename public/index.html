@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD App</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to CSS file -->
+</head>
+<body>
+    <h1>CRUD App</h1>
+
+    <!-- Form to add a new item -->
+    <form id="itemForm">
+        <input type="text" id="name" placeholder="Name" required />
+        <input type="number" id="quantity" placeholder="Quantity" required />
+        <textarea id="description" placeholder="Description"></textarea>
+        <button type="submit">Add Item</button>
+    </form>
+
+    <h2>Items List</h2>
+    <ul id="itemsList"></ul> <!-- Dynamic list of items -->
+
+    <script src="script.js"></script> <!-- Link to JS file -->
+</body>
+</html>
